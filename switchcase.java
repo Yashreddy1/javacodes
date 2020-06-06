@@ -7,8 +7,10 @@ import java.util.*;
 public class Switchcase {
 
     public static void main(String[] args) {
-               
         Scanner sc=new Scanner(System.in);
+        char s;
+        s='y';
+        while(s=='y'){
         int a;
         System.out.println("choose any number from 1-4");
         a= sc.nextInt();
@@ -38,11 +40,14 @@ public class Switchcase {
                 System.out.println("bad work");
                 break;
             }
+            
        
         }
+        System.out.println("would you like to try again y/n: ");
+        s=sc.next().charAt(0);
         
      
         
-    
+        }
     }
 }

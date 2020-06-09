@@ -1,4 +1,3 @@
-package employee;
 import java.util.*;
 /**
  *
@@ -25,10 +24,10 @@ public class Employee{
         for(int j=0;j<3;j++){
             
             if(j==0){
-             System.out.println("name of employee n0.: "+i);
+             System.out.println("name of employee no.: "+i);
             }
             if(j==1){
-                 System.out.println("year of employee no.: "+i);
+                 System.out.println("year of joining of employee no.: "+i);
             }
             if(j==2){
              System.out.println("adress of employee no.: "+i);
@@ -42,10 +41,9 @@ public class Employee{
     }
       for(int i=0;i<n+1;i++){
         for(int j=0;j<3;j++){
-        System.out.print(emp.employ_list[i][j]+" ");            
+        System.out.print(emp.employ_list[i][j]+"      ");            
     }  
-        System.out.println(" ");
+        System.out.println("");
     }
     }
     }
-    
